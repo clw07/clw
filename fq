@@ -109,6 +109,7 @@ proxy-providers:
     <<: *p  # 引用 p 参数
     lazy: true
     timeout: 5000  # 设置为 5 秒
+    interval: 60480
   国际:
     type: http
     url: "https://gawrgura.moe/api/v1/client/subscribe?token=e26587818a001c80ba5eed92c3007d9e"
@@ -122,6 +123,7 @@ proxy-providers:
     <<: *p  # 引用 p 参数
     lazy: true
     timeout: 5000  # 设置为 5 秒
+    interval: 60480
 
 proxy-groups:
   - name: proxy
