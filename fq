@@ -149,7 +149,7 @@ proxy-groups:
     <<: *p  # 引用 p 参数
     use:
       - 性价比
-      - 国外
+      - 国际
     
     lazy: true
   - name: 🛑 AdBlock
